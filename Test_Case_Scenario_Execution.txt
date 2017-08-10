@@ -1,0 +1,24 @@
+Test Case
+
+ID 1
+Title: User is able to filtred dress by color 
+Pre-Conditions (Fixture):N/A
+Steps:
+#1 Open the website at "http://automationpractice.com/index.php"
+#2 Hover over "Dresses"
+#3 Cliuck on "Summer dresses"
+#4 clik on "white" color-checkbox 
+Expecetd result:
+Dress "Color" contains white
+
+ID 2
+Title: User is NOT able to select "Red" color
+Pre-Conditions(Fixture):N/A
+Steps:
+#1 Open the website at "http://automationpractice.com/index.php"
+#2 Hover over "Dresses"
+#3 Cliuck on "Summer dresses"
+#4 change color name in current url
+
+Expecetd result:
+User should see "Erorr message"
