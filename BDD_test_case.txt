@@ -1,0 +1,16 @@
+BDD - Gherkin 
+
+@id1 
+Scenario: User is able to filtre dresses by color
+Given I open the website http://automationpractice.com/index.php
+When I Hover over "Dresses"
+And click on "Summer dresses"
+And check "white" color-checkbox
+Then I should see dresses contains "white" color
+
+@id2
+Scenario: User is NOT able to select "Red" color
+When I Hover over "Dresses"
+And click on "Summer dresses"
+And change color name from the corrent url
+Then I shoud see error message 
