@@ -1,4 +1,10 @@
-Test Case
+Test Scenario: Verify that filter by color is working correctly 
+
+Test Cases:
+
+	1. Verify that the choozen color is available
+	2. Verify that error message is shown when you choose unexisted color
+
 
 ID 1
 Title: User is able to filtred dress by color 
